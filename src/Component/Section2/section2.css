@@ -1,0 +1,133 @@
+.container-sec2 {
+  /* margin-bottom: 150px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-sec2 > h1 {
+  /* display: flex;
+    flex-direction: row; */
+  /* align-items: center; */
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+.container-sec2 > h3 {
+  /* display: flex;
+    flex-direction: row; */
+  /* align-items: center; */
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+.cont-sec2 {
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  width: auto;
+}
+.cont-sec2 > img {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  object-fit: cover;
+}
+.cont-sec2 > h2 {
+  font-weight: 700;
+  font-size: 11px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap-abs,
+.wrap-text {
+  position: absolute;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 190px;
+}
+
+.wrap-abs {
+  height: 60px;
+  text-align: left;
+  border-radius: 0 0 10px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.5s, border-radius 1s;
+  transform-origin: bottom;
+}
+.wrap-text {
+  text-align: end;
+  transition: transform 0.5s, border-radius 1s;
+}
+
+.cont-sec2:hover > .wrap-abs {
+  transform: scaleY(2) translateY(0.1px);
+  border-radius: 0 0 6.85px 6.85px;
+}
+
+.cont-sec2:hover > .wrap-text {
+  transform: translateY(-60px);
+}
+
+.cont-sec2:hover > .wrap-text a {
+  font-size: 14px;
+}
+
+.cont-sec2:hover > .wrap-text p {
+  font-size: 10px;
+}
+.wrap-abs > h2,
+.wrap-text > h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.wrap-text > p {
+  color: white;
+  font-weight: 400;
+  font-size: 0px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: font-size 0.5s;
+}
+
+.wrap-text > a {
+  color: white;
+  font-weight: 700;
+  font-size: 0px;
+  text-align: end;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: font-size 0.5s;
+}
+
+.p3 {
+  margin-top: -5px !important;
+}
+
+.sec2wrap {
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+  gap: 30px;
+  padding-bottom: 30px;
+  cursor: grab;
+}
+
+#section2 {
+  scroll-margin-top: 150px;
+}
+
+.slick-slider {
+  cursor: grab;
+}

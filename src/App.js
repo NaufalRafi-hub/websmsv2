@@ -2,7 +2,7 @@
 import Home from "./Pages/Home";
 import Navigation from "./Component/Navigation";
 import { BrowserRouter, Route, Switch, useParams } from "react-router-dom";
-// import Footer from "./Components/Footer";
+import Footer from "./Component/Footer";
 import { createContext, useState } from "react";
 import langContext from "./Context/languageContext";
 
@@ -21,7 +21,7 @@ function App() {
             {/* <Route component={Error} /> */}
           </Switch>
           {/* <Floatbtn /> */}
-          {/* <Footer /> */}
+          <Footer />
 
           {/* <Home /> */}
         </BrowserRouter>

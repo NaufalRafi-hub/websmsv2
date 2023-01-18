@@ -3,3 +3,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+.bg-navy {
+  background-color: #24275C;
+}
+.bg-yellow {
+  background-color: #DBA925;
+}
+.py-140 {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.mt-200{
+  margin-top: 200px;
+}
+.t-white {
+  color: white;
+}
