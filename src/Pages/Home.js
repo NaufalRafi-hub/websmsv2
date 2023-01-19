@@ -10,6 +10,8 @@ import langContext from "../Context/languageContext";
 import SectionQt from "../Component/SectionQt";
 import Section1 from "../Component/Section1";
 import Section4abt from "../Component/Section4abt";
+import SectionProduct from "../Component/SectionProduct/OurWorkComp";
+
 
 
 // import SectionIg from "../Components/SectionIg";
@@ -38,6 +40,7 @@ const Home = () => {
       </header>
       <SectionQt />
       <Section1 />
+      <SectionProduct />
       <Section4abt />
     </div>
   );
