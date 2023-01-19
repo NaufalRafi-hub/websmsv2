@@ -9,6 +9,8 @@ import { useContext } from "react";
 import langContext from "../Context/languageContext";
 import SectionQt from "../Component/SectionQt";
 import Section1 from "../Component/Section1";
+import Section4abt from "../Component/Section4abt";
+
 
 // import SectionIg from "../Components/SectionIg";
 
@@ -36,6 +38,7 @@ const Home = () => {
       </header>
       <SectionQt />
       <Section1 />
+      <Section4abt />
     </div>
   );
 };
