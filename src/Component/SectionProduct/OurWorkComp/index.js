@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import { Carousel, Card, Button, Container } from 'react-bootstrap';
 import './OurWorkComp.css';
 import Slider from '../Carousel/Slider';
 import imageSlider from '../Carousel/imageSlider';
@@ -44,7 +44,8 @@ const OurWorkComp = () => {
 
   // console.log(option.filter((item, idx) => item.option === optKey )[0].key);
   return (
-    <div className='wrapper'>
+    <Container>
+    <div className='wrapper'> 
       <div className='title'>
         <h1>Produk Kami</h1>
       </div>
@@ -88,6 +89,8 @@ const OurWorkComp = () => {
         <Slider imageSlider={content} parentIdx={parent} optKey={optKey} />
       </div>
     </div>
+    </Container>
+
   );
 };
 

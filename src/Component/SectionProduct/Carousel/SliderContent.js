@@ -20,12 +20,12 @@ const SliderContent = ({ activeIndex, imageSlider, parentIdx }) => {
               <img src={slide.logo} alt='' className='logo' />
             </div>
           </div>
-          <div className='detail-button'>
+          {/* <div className='detail-button'>
             <Link to={`/product/${slide.title}/${index}/${parentIdx}`}>
               See Detail
             </Link>
             <hr />
-          </div>
+          </div> */}
         </div>
       ))}
       <div></div>

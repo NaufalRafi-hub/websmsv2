@@ -9,8 +9,8 @@
 }
 
 .slider-container {
-  /* height: var(--heights); */
-  width: var(--widths);
+  /* height: 400px !important; */
+  width: 650px;
   position: relative;
   margin: auto;
   overflow: hidden;

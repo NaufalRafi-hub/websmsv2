@@ -3,6 +3,7 @@ import SliderContent from './SliderContent';
 import Arrow from './Arrow';
 import Dots from './Dots';
 import './slider.css';
+import { Container } from 'react-bootstrap';
 
 const Slider = ({imageSlider, parentIdx, optKey}) => {
   // console.log('parent ' + parentIdx)
@@ -26,6 +27,7 @@ const Slider = ({imageSlider, parentIdx, optKey}) => {
   // }
   return (
     <div className='slider-container'>
+      <Container>
       <SliderContent
         activeIndex={activeIndex}
         imageSlider={imageSlider}
@@ -44,6 +46,7 @@ const Slider = ({imageSlider, parentIdx, optKey}) => {
         imageSlider={imageSlider}
         onClick={(activeIndex) => setActiveIndex(activeIndex)}
       />
+      </Container>
     </div>
   );
 };
