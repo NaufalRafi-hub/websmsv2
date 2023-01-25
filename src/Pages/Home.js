@@ -39,9 +39,11 @@ const Home = () => {
         <Header lang={lang} />
       </header>
       <SectionQt />
+      <section className="Section-cont">
       <Section1 />
       <SectionProduct />
       <Section4abt />
+      </section>
     </div>
   );
 };
