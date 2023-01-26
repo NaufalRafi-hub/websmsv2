@@ -9,6 +9,7 @@ import { useContext } from "react";
 import langContext from "../Context/languageContext";
 import SectionQt from "../Component/SectionQt";
 import Section1 from "../Component/Section1";
+import SectionServ from "../Component/SectionServ";
 import Section4abt from "../Component/Section4abt";
 import SectionProduct from "../Component/SectionProduct/OurWorkComp";
 
@@ -41,6 +42,7 @@ const Home = () => {
       <SectionQt />
       <section className="Section-cont">
       <Section1 />
+      <SectionServ />
       <SectionProduct />
       <Section4abt />
       </section>
