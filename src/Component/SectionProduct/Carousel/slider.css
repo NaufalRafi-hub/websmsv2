@@ -41,11 +41,10 @@
 
 .detail-wrap {
   display: grid;
-  grid-template-columns: 2fr 1.5fr;
-  grid-template-rows: 1fr 2fr;
-  grid-template-areas: "title logo"
-                       "description logo";
-  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 1fr 2fr; */
+  grid-template-areas: "title logo";
+  /* gap: 10px; */
   margin-top: 20px;
 }
 
@@ -82,7 +81,7 @@
   display: flex;
   align-items: center;
   margin-left: 35px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .detail-button {

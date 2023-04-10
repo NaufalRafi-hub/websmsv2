@@ -15,7 +15,7 @@ const SliderContent = ({ activeIndex, imageSlider, parentIdx }) => {
             <h2 className='slide-title'>
               <span>{slide.title}</span>
             </h2>
-            <h3 className='slide-text'>{slide.description}</h3>
+            {/* <h3 className='slide-text'>{slide.description}</h3> */}
             <div className='logo'>
               <img src={slide.logo} alt='' className='logo' />
             </div>

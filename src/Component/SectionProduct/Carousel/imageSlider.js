@@ -1,6 +1,35 @@
 import First from '../../../Images/opt1.png';
 import logo1 from '../../../Images/heineken.png';
 import Second from '../../../Images/opt2.png';
+import camel1 from '../../../Images/digital/1.jpg';
+import camel2 from '../../../Images/digital/2.jpg';
+import camel3 from '../../../Images/digital/3.jpg';
+import camel4 from '../../../Images/digital/4.jpg';
+import camel5 from '../../../Images/digital/5.jpg';
+import camel6 from '../../../Images/digital/6.jpg';
+import camel7 from '../../../Images/digital/7.jpg';
+import camel8 from '../../../Images/digital/8.jpg';
+
+import bintang1 from '../../../Images/promotion/1.jpg';
+import clas2 from '../../../Images/promotion/2.jpg';
+import bebe3 from '../../../Images/promotion/3.jpg';
+import apta4 from '../../../Images/promotion/4.jpg';
+import mevius5 from '../../../Images/promotion/5.jpg';
+import puff6 from '../../../Images/promotion/6.jpg';
+import nutricia7 from '../../../Images/promotion/7.jpg';
+
+import aqua1 from '../../../Images/sign/1.jpg';
+import ichitan2 from '../../../Images/sign/2.jpg';
+import royal3 from '../../../Images/sign/3.jpg';
+import nutriclub4 from '../../../Images/sign/4.jpg';
+import royal5 from '../../../Images/sign/5.jpg';
+import bebe6 from '../../../Images/sign/6.jpg';
+import salon7 from '../../../Images/sign/7.jpg';
+import migo8 from '../../../Images/sign/8.jpg';
+import relx9 from '../../../Images/sign/9.jpg';
+import camel10 from '../../../Images/sign/10.jpg';
+import heine11 from '../../../Images/sign/11.jpg';
+
 import logo2 from '../../../Images/cocacola.png';
 import bebelac from '../../../Images/bebelac.png';
 import camel from '../../../Images/camel.png';
@@ -36,16 +65,16 @@ import totem_heineken2 from '../../../Images/totem_heineken2.jpg'
 
 export default [
   {
-    option: 'display',
+    option: 'digital',
     //atau bikin lagi object array di dalem object array
     data: [
       {
         id : 1,
-        title: 'PT. Multi Bintang Indonesia',
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque. ',
-        urls: Second,
-        logo: logo1,
+          '',
+        urls: camel1,
+        logo: camel,
         product : [
           {
             prod : 'Floor Display',
@@ -99,11 +128,11 @@ export default [
       },
       {
         id : 2,
-        title: 'PT. Dutch Mill Indonesia*',
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: First,
-        logo: dutch,
+        urls: camel2,
+        logo: camel,
         product : [
           {
             prod : 'Floor Display', 
@@ -122,7 +151,7 @@ export default [
         title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: Second,
+        urls: camel3,
         logo: camel,
         product : [
           {
@@ -142,11 +171,11 @@ export default [
       },
       {
         id : 4,
-        title: 'PT. Mevius Indonesia*',
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: First,
-        logo: mevius,
+        urls: camel4,
+        logo: camel,
         product : [
           {
             prod : 'Bar Top', 
@@ -162,11 +191,11 @@ export default [
       },
       {
         id : 5,
-        title: 'PT. Nutricia Indonesia Sejahtera*',
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: Second,
-        logo: bebelac,
+        urls: camel5,
+        logo: camel,
         product : [
           {
             prod : 'Shelftalker', 
@@ -182,11 +211,53 @@ export default [
       },
       {
         id : 6,
-        title: 'PT. Sarihusada Generasi Mahardhika*',
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: First,
-        logo: sgm,
+        urls: camel6,
+        logo: camel,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        id : 7,
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: camel7,
+        logo: camel,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        id : 8,
+        title: 'PT. Karyadibya Mahardhika (JTI)*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: camel8,
+        logo: camel,
         product : [
           {
             prod : 'Shelftalker', 
@@ -204,13 +275,13 @@ export default [
     ],
   },
   {
-    option: 'sign',
+    option: 'promotion product',
     data: [
       {
         title: 'PT. Multi Bintang Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque. ',
-        urls: First,
+        urls: bintang1,
         logo: logo1,
         product : [
           {
@@ -226,10 +297,105 @@ export default [
         ]
       },
       {
-        title: 'Second Slider Image',
+        title: 'PT clas mid',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: Second,
+        urls: clas2,
+        logo: logo2,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+      },
+      {
+        title: 'PT bebelac',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: bebe3,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+      },
+      {
+        title: 'PT Apta',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: apta4,
+        logo: logo2,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+      },
+      {
+        title: 'PT Mevius',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: mevius5,
+        logo: mevius,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+      },
+      {
+        title: 'PT Puff',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: puff6,
+        logo: logo2,
+        product : [
+          {
+            prod : 'Shelftalker', 
+            name : 'SGM aktif Shelftalker Display', 
+            desc : 'Menggunakan material acrylic, dan Sticker digital printing. Process diawali dengan cutting acrylic, installation sticker digital printing',
+            image : [
+              {
+                file : shelf_sgm
+              },
+            ]
+          },
+        ]
+      },
+      {
+        title: 'PT. Nutricia Indonesia Sejahtera*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: nutricia7,
         logo: logo2,
         product : [
           {
@@ -247,13 +413,13 @@ export default [
     ],
   },
   {
-    option: 'booth',
+    option: 'sign',
     data: [
       {
-        title: 'PT. Multi Bintang Indonesia',
+        title: 'PT. Aqua Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque. ',
-        urls: First,
+        urls: aqua1,
         logo: logo1,
         product : [
           {
@@ -277,13 +443,172 @@ export default [
             ]
           },
         ]
+      },{
+        title: 'PT. Ichitan Indonesia',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: ichitan2,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
       },
       {
         title: 'PT. Nutricia Indonesia Sejahtera*',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
-        urls: Second,
+        urls: royal3,
         logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Nutricia Indonesia Sejahtera*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: nutriclub4,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Nutricia Indonesia Sejahtera*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: royal5,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Salonpas Sejahtera*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: salon7,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Warung Migo Indonesia*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: migo8,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Relx Indonesia*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: relx9,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Camel Indonesia*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: camel10,
+        logo: bebelac,
+        product : [
+          {
+            prod : 'Booth', 
+            name : 'Bebelac Booth',
+            desc : 'Menggunakan material wood, acrylic, dan sticker digital printing. Process diawali dengan cutting wood, cutting acrylic, painting, installation sticker digital printing',
+            image : [
+              {
+                file : booth_bebelac
+              },
+            ]
+          },
+        ]
+        
+      },
+      {
+        title: 'PT. Heineken Indonesia*',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
+        urls: heine11,
+        logo: logo1,
         product : [
           {
             prod : 'Booth', 

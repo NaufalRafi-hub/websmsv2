@@ -6,7 +6,7 @@ import Slider from '../Carousel/Slider';
 import imageSlider from '../Carousel/imageSlider';
 
 const OurWorkComp = () => {
-  const [optKey, setOptKey] = useState('display');
+  const [optKey, setOptKey] = useState('digital');
   const [content, setContent] = useState([]);
   const [parent, setParent] = useState(0);
 
@@ -25,15 +25,15 @@ const OurWorkComp = () => {
 
   const option = [
     {
-      option: 'display',
+      option: 'digital',
       key: 0,
     },
     {
-      option: 'sign',
+      option: 'promotion product',
       key: 1,
     },
     {
-      option: 'booth',
+      option: 'sign',
       key: 2,
     },
     {

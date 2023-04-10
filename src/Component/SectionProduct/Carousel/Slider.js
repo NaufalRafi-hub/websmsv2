@@ -9,7 +9,7 @@ const Slider = ({imageSlider, parentIdx, optKey}) => {
   // console.log('parent ' + parentIdx)
   const len = imageSlider.length - 1;
   const [activeIndex, setActiveIndex] = useState(0);
-  const [optName, setOptName] = useState("Display");
+  const [optName, setOptName] = useState("Digital");
   
   if(optName != optKey) {
     setActiveIndex(0);
