@@ -65,7 +65,7 @@
   grid-area: title;
   font-family: 'Viga', sans-serif;
   font-size: 2ch;
-  margin: 15px 0;
+  margin: 35px 0;
 }
 
 .slide-text {
@@ -77,10 +77,10 @@
 
 .logo {
   grid-area: logo;
-  width: 60%;
+  width: 68%;
   display: flex;
   align-items: center;
-  margin-left: 35px;
+  margin-left: 15px;
   /* justify-content: space-around; */
 }
 
