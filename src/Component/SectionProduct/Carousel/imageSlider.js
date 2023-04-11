@@ -33,9 +33,25 @@ import heine11 from '../../../Images/sign/11.jpg';
 import logo2 from '../../../Images/cocacola.png';
 import bebelac from '../../../Images/bebelac.png';
 import camel from '../../../Images/camel.png';
-import dutch from '../../../Images/dutchmill.png';
+import salonpas from '../../../Images/salonpas.png';
 import mevius from '../../../Images/mevius.png';
-import sgm from '../../../Images/sgm.png';
+import relx from '../../../Images/relx.webp';
+import migo from '../../../Images/migo-min.webp';
+// import sgm from '../../../Images/sgm.webp';
+import ichitan from '../../../Images/ichitan.png'
+import aqua from '../../../Images/aqua.png'
+import clasmild from '../../../Images/clasmild.png'
+import puf from '../../../Images/puf.png'
+import combi from '../../../Images/combiphar.png'
+import nutricia from '../../../Images/nutricia.png'
+import nutroyal from '../../../Images/nutrilon_royal.webp'
+import nutriclub from '../../../Images/nutriclub.png'
+
+
+
+
+
+
 import heineken1 from '../../../Images/heineken1.jpg'
 import heineken2 from '../../../Images/heineken2.jpg'
 import heineken3 from '../../../Images/heineken3.jpg'
@@ -253,7 +269,7 @@ export default [
       },
       {
         id : 8,
-        title: 'PT. Karyadibya Mahardhika (JTI)*',
+        title: 'PT. Karyadibya Mahardhika (JTI)',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: camel8,
@@ -297,11 +313,11 @@ export default [
         ]
       },
       {
-        title: 'PT clas mid',
+        title: 'PT Nojorono Tobacco International',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: clas2,
-        logo: logo2,
+        logo: clasmild,
         product : [
           {
             prod : 'Shelftalker', 
@@ -316,7 +332,7 @@ export default [
         ]
       },
       {
-        title: 'PT bebelac',
+        title: 'PT. Nutricia Indonesia Sejahtera',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: bebe3,
@@ -335,11 +351,11 @@ export default [
         ]
       },
       {
-        title: 'PT Apta',
+        title: 'PT Combiphar',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: apta4,
-        logo: logo2,
+        logo: combi,
         product : [
           {
             prod : 'Shelftalker', 
@@ -373,11 +389,11 @@ export default [
         ]
       },
       {
-        title: 'PT Puff',
+        title: 'PT Puf Sains Lab',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: puff6,
-        logo: logo2,
+        logo: puf,
         product : [
           {
             prod : 'Shelftalker', 
@@ -396,7 +412,7 @@ export default [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: nutricia7,
-        logo: logo2,
+        logo: nutricia,
         product : [
           {
             prod : 'Shelftalker', 
@@ -416,11 +432,11 @@ export default [
     option: 'sign',
     data: [
       {
-        title: 'PT. Aqua Indonesia',
+        title: 'PT Tirta Investama',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque. ',
         urls: aqua1,
-        logo: logo1,
+        logo: aqua,
         product : [
           {
             prod : 'DJ Table',
@@ -444,11 +460,11 @@ export default [
           },
         ]
       },{
-        title: 'PT. Ichitan Indonesia',
+        title: 'PT Ichi Tan Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: ichitan2,
-        logo: bebelac,
+        logo: ichitan,
         product : [
           {
             prod : 'Booth', 
@@ -468,7 +484,7 @@ export default [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: royal3,
-        logo: bebelac,
+        logo: nutroyal,
         product : [
           {
             prod : 'Booth', 
@@ -488,7 +504,7 @@ export default [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: nutriclub4,
-        logo: bebelac,
+        logo: nutriclub,
         product : [
           {
             prod : 'Booth', 
@@ -508,7 +524,7 @@ export default [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: royal5,
-        logo: bebelac,
+        logo: nutroyal,
         product : [
           {
             prod : 'Booth', 
@@ -524,11 +540,11 @@ export default [
         
       },
       {
-        title: 'PT. Salonpas Sejahtera*',
+        title: 'PT Hisamitsu Pharma Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: salon7,
-        logo: bebelac,
+        logo: salonpas,
         product : [
           {
             prod : 'Booth', 
@@ -544,11 +560,11 @@ export default [
         
       },
       {
-        title: 'PT. Warung Migo Indonesia*',
+        title: 'PT. Teknkologi Migo Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: migo8,
-        logo: bebelac,
+        logo: migo,
         product : [
           {
             prod : 'Booth', 
@@ -564,11 +580,11 @@ export default [
         
       },
       {
-        title: 'PT. Relx Indonesia*',
+        title: 'PT. Wickham International Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: relx9,
-        logo: bebelac,
+        logo: relx,
         product : [
           {
             prod : 'Booth', 
@@ -584,11 +600,11 @@ export default [
         
       },
       {
-        title: 'PT. Camel Indonesia*',
+        title: 'PT. Karyadibya Mahardhika (JTI)',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: camel10,
-        logo: bebelac,
+        logo: camel,
         product : [
           {
             prod : 'Booth', 
@@ -604,7 +620,7 @@ export default [
         
       },
       {
-        title: 'PT. Heineken Indonesia*',
+        title: 'PT Multi Bintang Indonesia',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pretium vel mattis posuere nulla venenatis rhoncus nec scelerisque.',
         urls: heine11,
