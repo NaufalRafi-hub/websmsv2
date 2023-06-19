@@ -1,5 +1,8 @@
+#section4 {
+    scroll-margin-top: 150px;
+  }
 .wrap-abt4 {
-    margin-top: 150px;
+    margin-top: -200px;
     /* margin-bottom: 120px; */
 }
 .wrap-abt4 > h1 {

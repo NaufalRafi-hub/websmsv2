@@ -1,10 +1,10 @@
 export default [
   {
     text1: "A One Stop Workshop Company in Indonesia",
-    head: "PT. Sinar Media Digitama aims to offer 360-degree marketing services for creative business owners looking for a one-stop shop for their marketing campaign needs.",
+    head: "Welcome to Sinar Media Sakti, A one-stop workshop advertisement company that offers a comprehensive range of services to help your business stands out.",
     subhead:
-      "We strive to be your professional partner in helping you develop your brand or product to shine forever. This is in line with our business goal of consistently prioritizing the value of every service and client satisfaction.",
-    trihead: "We are confident that these efforts will provide outstanding outcomes for your brand in the future."
+      "Our expertise extends to Signage, Promotion Product and Professional installations. Whether you require eye-catching outdoor signs, elegant indoor displays, or intricate vehicle wraps, we have the skills and technology to create impactful visuals that will enhance your brand's visibility. Our installation specialists ensure that your signs and displays are expertly installed for maximum impact and longevity.",
+    trihead: "Also check out our branding agency called "
     },
   {
     text1: "A One Stop Branding Agency in Indonesia",

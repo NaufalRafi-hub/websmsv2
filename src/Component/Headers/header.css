@@ -14,9 +14,14 @@
   /* align-items: center; */
   flex-direction: column;
   justify-content: left;
+  width: 450px;
   /* gap: 90px; */
 }
+.container-head > h3 {
+  line-height: 40px;
+}
 .container-head > h1 {
+  margin-top: 30px;
   color: white;
 }
 #slide-bg {
@@ -33,23 +38,6 @@
 .ar-down {
   display: none;
 }
-/* @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-  25% {
-    transform: translatex(20px);
-  }
-	50% {
-		transform: translatey(-20px);
-	}
-  75% {
-    transform: translatey(20px);
-  }
-	100% {
-		transform: translatey(0px);
-	}
-} */
 .cont-head {
   text-align: center;
   display: flex;

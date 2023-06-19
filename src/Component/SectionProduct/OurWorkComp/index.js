@@ -49,6 +49,7 @@ const OurWorkComp = () => {
       <div className='title'>
         <h1>Our Product</h1>
       </div>
+      <div></div>
       <div className='aside'>
         <ul className='option'>
           <li></li>

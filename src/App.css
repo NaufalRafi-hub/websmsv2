@@ -36,4 +36,6 @@
 }
 .Section-cont {
   background-image: url('./Images/wallpaper-home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
