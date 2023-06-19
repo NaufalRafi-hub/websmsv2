@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const Section2 = (props) => {
   const { lang = "en" } = props;
-  const [margin , setMargin] = useState()
+  const [mar , setMar] = useState("0")
 
   return (
     <>
@@ -19,10 +19,11 @@ const Section2 = (props) => {
           <h1>{lang === "en" ? DataTitle[0].title : DataTitle[1].title}</h1>
           <h3>{DataTitle[0].desc}</h3>
             {Data.map((data, index) => (
+              <>
               <div
                 className="col-sm cont-sec2 d-flex flex-column align-items-center"
                 key={index}
-                style={ index != 0 || index === index+1 ? { marginTop: '120px'} : {}}
+                style={{marginTop: index * 40} }
               >
                 <img src={data.cover}></img>
                 <div className="wrap-abs"></div>
@@ -31,6 +32,7 @@ const Section2 = (props) => {
                   <p className={index === 2 ? "p3" : ""}>{data.texts}</p>
                 </div>
               </div>
+              </>
             ))}
         </div>
       </Container>

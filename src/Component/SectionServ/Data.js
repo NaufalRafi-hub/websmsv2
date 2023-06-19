@@ -28,7 +28,7 @@ import promUnitc from "../../Images/promotional-units-c.webp";
 
 export default [
   {
-    name: "Display",
+    name: "Digital",
     cover: oohSGMc,
     ava: oohSGM,
     texts: "Display produk yang akan meningkatkan minat beli konsumen dalam pembelian barang yang terpajang.",
@@ -118,25 +118,11 @@ export default [
     ],
   },
   {
-    name: "Printed Material",
+    name: "Promotion Product",
     cover: printMatc,
     ava: printMat,
     texts: "Offset, Screen Print, and Digital Print",
     textId: "Offset, Screen Print, and Digital Print",
-    quotes: "read more",
-    description:
-      "The content's core is just as important as the printing. Our expert creative team will support the brand with any copywriting, graphic design, editing, and web development suggestions. Additionally, a number of printing machines are ready to print all the documents and help your business stand out from the competition.",
-    descriptionId:
-      "Kebutuhan akan konten sama pentingnya dengan percetakan. Tim kreatif kami yang berpengalaman akan membantu memberikan sugesti terhadap kebutuhan copywriting, desain grafis, editing, dan pembuatan situs website untuk brand Anda. Lalu, berbagai mesin cetak kami akan siap untuk mencetak seluruh kebutuhan Anda dan membantu bisnis anda tampil menonjol dibanding kompetitor lain.",
-    ava2: printMat2,
-    products: [],
-  },
-  {
-    name: "Booth",
-    cover: printMatc,
-    ava: printMat,
-    texts: "Variasi booth dan stand sesuai dengan kebutuhan brand untuk penjualan produk dan penyampaian informasi",
-    textId: "Variasi booth dan stand sesuai dengan kebutuhan brand untuk penjualan produk dan penyampaian informasi",
     quotes: "read more",
     description:
       "The content's core is just as important as the printing. Our expert creative team will support the brand with any copywriting, graphic design, editing, and web development suggestions. Additionally, a number of printing machines are ready to print all the documents and help your business stand out from the competition.",
