@@ -52,7 +52,7 @@ function BasicExample() {
                   {Data[0].nav5}
                 </HashLink>
               </Nav.Link>
-              <Nav.Link>
+              {/* <Nav.Link>
                 <HashLink smooth to="" className="nav-link">
                   <BootstrapSwitchButton
                     checked={lang === "en" ? false : true}
@@ -62,7 +62,7 @@ function BasicExample() {
                     onChange={onChange}
                   />
                 </HashLink>
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
             <Nav>
               <HashLink smooth to="/#section6">
