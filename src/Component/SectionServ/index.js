@@ -4,10 +4,12 @@ import "./section2.css";
 import Data from "./Data";
 import DataTitle from "./DataTitle";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 // import Slider from "react-slick";
 
 const Section2 = (props) => {
   const { lang = "en" } = props;
+  const [margin , setMargin] = useState()
 
   return (
     <>
