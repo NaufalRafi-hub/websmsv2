@@ -45,9 +45,9 @@ const OurWorkComp = () => {
   // console.log(option.filter((item, idx) => item.option === optKey )[0].key);
   return (
     <Container>
-    <div className='wrapper'> 
+    <div id="section3" className='wrapper'> 
       <div className='title'>
-        <h1>Produk Kami</h1>
+        <h1>Our Product</h1>
       </div>
       <div className='aside'>
         <ul className='option'>

@@ -37,13 +37,13 @@ const Footer = () => {
                 <h3>{Data[0].nav3}</h3>
               </HashLink>
               <HashLink smooth to="/#section6" className="footer-nav">
-                <h3>{Data[0].nav4} Us</h3>
+                <h3>{Data[0].nav4}</h3>
               </HashLink>
             </div>
             <div className="col-lg cont-footer getin">
               <h1>{Data[0].subhead}</h1>
               <h3 className="">
-                <b>PT. Sinar Media Digitama</b>
+                <b>CV. Sinar Media Sakti</b>
                 <br></br>
                 Aria Putra 8, Serua Indah<br></br>
                 {Data[0].addy}

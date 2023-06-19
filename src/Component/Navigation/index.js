@@ -38,9 +38,9 @@ function BasicExample() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/AboutUs" className="nav-link">
+                <HashLink to="/#section1" className="nav-link">
                   {Data[0].nav2}
-                </Link>
+                </HashLink>
               </Nav.Link>
               <Nav.Link>
                 <HashLink smooth to="/#section2" className="nav-link">
@@ -48,7 +48,7 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/Blog" className="nav-link">
+                <HashLink smooth to="/#section3" className="nav-link">
                   {Data[0].nav5}
                 </HashLink>
               </Nav.Link>
@@ -79,9 +79,9 @@ function BasicExample() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/AboutUs" className="nav-link nav-link-indo">
+                <HashLink to="/#section1" className="nav-link nav-link-indo">
                   {Data[1].nav2}
-                </Link>
+                </HashLink>
               </Nav.Link>
               <Nav.Link>
                 <HashLink smooth to="/#section2" className="nav-link nav-link-indo">
@@ -89,7 +89,7 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/Blog" className="nav-link nav-link-indo">
+                <HashLink smooth to="/#section3" className="nav-link nav-link-indo">
                   {Data[1].nav5}
                 </HashLink>
               </Nav.Link>

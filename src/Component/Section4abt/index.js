@@ -14,7 +14,7 @@ const index = (props) => {
     <>
       {lang === "en" ? (
         <Container className="mb-150">
-          <div className="wrap-abt4 text-center">
+          <div id="section4" className="wrap-abt4 text-center">
             <h1>{Data[0].head}</h1>
           </div>
           <div className="row wrap-cont-abt4 justify-content-center">
@@ -32,7 +32,7 @@ const index = (props) => {
         </Container>
       ) : (
         <Container className="mb-150">
-          <div className="wrap-abt4 text-center">
+          <div id="section4" className="wrap-abt4 text-center">
             <h1>{Data[1].head}</h1>
           </div>
           <div className="row wrap-cont-abt4 justify-content-center">

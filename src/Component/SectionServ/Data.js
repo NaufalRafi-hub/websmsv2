@@ -14,6 +14,8 @@ import Product11 from "../../Images/PRODUK-11.webp";
 import Product12 from "../../Images/PRODUK-12.webp";
 import Product13 from "../../Images/PRODUK-13.webp";
 import oohSGM from "../../Images/billboard-sgm.webp";
+import camel1 from '../../Images/digital/1.jpg';
+import royal3 from '../../Images/sign/3.jpg';
 import oohSweety from "../../Images/billboard-sweety.webp";
 import printMat from "../../Images/printedmaterials.webp";
 import printMat2 from "../../Images/printedmaterials2.webp";
@@ -21,6 +23,7 @@ import promUnit from "../../Images/promotional-units.webp";
 import promUnit2 from "../../Images/promotional-units2.webp";
 import oohSGMc from "../../Images/billboard-sgm-c.webp";
 import printMatc from "../../Images/printedmaterials-c.webp";
+import bintang1 from '../../Images/promotion/1.jpg';
 // import printMat2c from "../../Images/webp/printedmaterials2-c.webp";
 import promUnitc from "../../Images/promotional-units-c.webp";
 // import promUnit2c from "../../Images/webp/promotional-units2-c.webp";
@@ -29,7 +32,7 @@ import promUnitc from "../../Images/promotional-units-c.webp";
 export default [
   {
     name: "Digital",
-    cover: oohSGMc,
+    cover: camel1,
     ava: oohSGM,
     texts: "Display produk yang akan meningkatkan minat beli konsumen dalam pembelian barang yang terpajang.",
     textsId: "Display produk yang akan meningkatkan minat beli konsumen dalam pembelian barang yang terpajang.",
@@ -52,7 +55,7 @@ export default [
   },
   {
     name: "Sign",
-    cover: promUnitc,
+    cover: royal3,
     ava: promUnit,
     texts: "Sign sebagai pemerjelas logo dan informasi dari brand sesuai dengan kebutuhan perusahaan.",
     textId: "Sign sebagai pemerjelas logo dan informasi dari brand sesuai dengan kebutuhan perusahaan.",
@@ -119,7 +122,7 @@ export default [
   },
   {
     name: "Promotion Product",
-    cover: printMatc,
+    cover: bintang1,
     ava: printMat,
     texts: "Offset, Screen Print, and Digital Print",
     textId: "Offset, Screen Print, and Digital Print",

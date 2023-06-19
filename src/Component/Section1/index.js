@@ -9,7 +9,7 @@ const Section1 = (props) => {
 
   return (
     <>
-      <Container>
+      <Container id="section1">
         {lang === "en" ? (
           <div className="row container-sec1 bg-blur  p-5">
             <div className="col-md cont-sec1-left ">
