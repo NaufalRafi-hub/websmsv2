@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch, useParams } from "react-router-dom";
 import Footer from "./Component/Footer";
 import { createContext, useState } from "react";
 import langContext from "./Context/languageContext";
+import FooterNew from "./Component/FooterNew";
 
 function App() {
   const [lang, setLang] = useState("en");
@@ -21,8 +22,8 @@ function App() {
             {/* <Route component={Error} /> */}
           </Switch>
           {/* <Floatbtn /> */}
-          <Footer />
-
+          {/* <Footer /> */}
+          <FooterNew />
           {/* <Home /> */}
         </BrowserRouter>
       </langContext.Provider>

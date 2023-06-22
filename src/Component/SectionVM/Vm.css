@@ -1,0 +1,21 @@
+.vm-wrap {
+    /* display: flex;
+    justify-content: center; */
+    gap: 40px
+}
+.vm-cont > h1 {
+    color: white;
+    font-size: x-large;
+    border-bottom: 2px solid #FFCC33;
+    width: 100px;
+    height: 50px;
+}
+.vm-cont > p {
+    margin-top: 20px;
+    color: white;
+    font-size: medium;
+    /* text-align: justify; */
+}
+.mt-vm {
+    margin-top: 47px;
+}

@@ -23,7 +23,7 @@ const Section2 = (props) => {
               <div
                 className="col-sm cont-sec2 d-flex flex-column align-items-center"
                 key={index}
-                style={{marginTop: index * 40} }
+                // style={{marginTop: index * 40} }
               >
                 <img src={data.cover}></img>
                 <div className="wrap-abs"></div>

@@ -3,3 +3,38 @@
     line-height: 50px;
     font-style: italic;
 }
+.qt-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.qt-cont {
+    border-right: 2px solid #FFCC33;
+    padding-right: 50px;
+}
+.qt-cont > h1 {
+    font-size: xx-large;
+}
+.qt-cont > h2 {
+    font-size: x-large;
+    color: white;
+}
+.qt-cont3 > h1 {
+    font-size: xx-large;
+}
+.qt-cont3 > h2 {
+    font-size: x-large;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    .qt-wrap {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: center; */
+        /* gap: 50px; */
+    }
+    .qt-cont {
+        border-right: none;
+        padding-right: 0px;
+    }
+  }

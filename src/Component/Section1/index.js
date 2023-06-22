@@ -14,7 +14,7 @@ const Section1 = (props) => {
         {lang === "en" ? (
           <div className="row container-sec1 bg-blur  p-5">
             <div className="col-md cont-sec1-left ">
-              <h2 className="yellow fw-bold">Who are we?</h2>
+              <h2 className="yellow fw-bold">ABOUT US</h2>
               <h1>{Data[0].text1}</h1>
             </div>
             <div className="col-md cont-sec1-right">

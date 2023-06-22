@@ -9,15 +9,23 @@ const SectionQt = (props) => {
 
   return (
       <div className="bg-navy py-140 text-center">
-    <Container>
-
-        <h2 className="fw-bold fs-sm-title t-white">
-          {lang === "en" ? Data[0].head : Data[1].head}
-        </h2>
-        <h2 className="fs-big quote t-white mt-30">
-          {lang === "en" ? Data[0].subhead : Data[1].subhead}
-        </h2>
-    </Container >
+        <Container>
+          <div className="qt-wrap">
+            <div className="qt-cont">
+                <h1 className="yellow">11+</h1>
+                <h2>YEARS OF EXPERIENCES</h2>
+            </div>  
+            <div className="qt-cont">
+                <h1 className="yellow">1500+</h1>
+                <h2>PROJECT HANDLED</h2>
+            </div>  
+            <div className="qt-cont3">
+                <h1 className="yellow">300+</h1>
+                <h2>SATISFIED CLIENT</h2>
+            </div>            
+          </div>
+            
+        </Container >
 
       </div>
   );

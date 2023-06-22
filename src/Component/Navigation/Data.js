@@ -4,7 +4,7 @@ export default [
     nav2: "About",
     nav3: "Services",
     nav5: "Product",
-    nav4: "Contact",
+    nav4: "Contact Us!",
   },
   {
     nav1: "Beranda",

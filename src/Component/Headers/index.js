@@ -10,8 +10,12 @@ const Header = () => {
                 {/* <video src={videoBg} autoPlay loop muted id="slide-bg"/> */}
             <Container>
                 <div className="container-head">
-                    <h3 className="yellow sub-title">Unlock Your Brand's Potential with Our One-Stop Workshop Solutions!</h3>
-                    <h1 className="">CV. Sinar Media Sakti</h1>
+                    <h1 className="sub-title"><b>ONE-STOP WORK</b>SHOP <br></br>
+                        <span className="yellow">
+                        <b>SOLUTIONS </b>
+                        </span>
+                    </h1>
+                    <h3 className="">CV. SINAR MEDIA SAKTI</h3>
                 </div>
                 </Container>
             </div>
