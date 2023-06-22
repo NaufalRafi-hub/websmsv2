@@ -6,7 +6,8 @@
 } */
 .nav-btn {
   gap: 40px;
-  margin-left: 10%;
+  margin-left: 47%;
+  justify-content: end;
 }
 .nav-link {
   font-size: 15px;

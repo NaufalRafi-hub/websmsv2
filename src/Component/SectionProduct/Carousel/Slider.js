@@ -41,11 +41,6 @@ const Slider = ({imageSlider, parentIdx, optKey}) => {
           setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
         }
       />
-      <Dots
-        activeIndex={activeIndex}
-        imageSlider={imageSlider}
-        onClick={(activeIndex) => setActiveIndex(activeIndex)}
-      />
       </Container>
     </div>
   );

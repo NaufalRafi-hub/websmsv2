@@ -81,7 +81,7 @@ import totem_heineken2 from '../../../Images/totem_heineken2.jpg'
 
 export default [
   {
-    option: 'digital',
+    option: 'Out of Home',
     //atau bikin lagi object array di dalem object array
     data: [
       {
@@ -291,7 +291,7 @@ export default [
     ],
   },
   {
-    option: 'promotion product',
+    option: 'Installation',
     data: [
       {
         title: 'PT. Multi Bintang Indonesia',
@@ -429,7 +429,7 @@ export default [
     ],
   },
   {
-    option: 'sign',
+    option: 'POSM & Sign',
     data: [
       {
         title: 'PT Tirta Investama',
@@ -642,7 +642,7 @@ export default [
     ],
   },
   {
-    option: 'Installation',
+    option: 'Digital',
     data: [
       {
         title: 'PT. Multi Bintang Indonesia',

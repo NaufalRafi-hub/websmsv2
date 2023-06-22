@@ -31,7 +31,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {lang === "en" ? (
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto nav-btn">
+            <Nav className="me-auto nav-btn ">
               <Nav.Link>
                 <Link to="/" className="nav-link">
                   {Data[0].nav1}

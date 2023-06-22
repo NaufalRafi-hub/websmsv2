@@ -1,7 +1,11 @@
 #section3 {
   scroll-margin-top: 150px;
 }
-
+.bg-gray {
+  background-color: rgb(212, 211, 211);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -42,7 +46,7 @@
   text-transform: capitalize;
   /* display: none; */
   /* justify-content: center; */
-  margin-top: 240px;
+  margin-top: 80px;
   margin-bottom: 200px;
 }
 
@@ -89,8 +93,9 @@
   width: 300px;
   text-transform: capitalize;
   padding: 0 20px;
+  margin-top: 50px;
 
-  margin: 0;      
+  /* margin: 0;       */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

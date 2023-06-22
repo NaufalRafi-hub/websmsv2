@@ -16,8 +16,9 @@ const Section2 = (props) => {
       <div id="section2"></div>
       <Container>
         <div className="row container-sec2">
+          <h2 className="yellow text-center">Advertisement makes your brand growth</h2>
           <h1>{lang === "en" ? DataTitle[0].title : DataTitle[1].title}</h1>
-          <h3>{DataTitle[0].desc}</h3>
+          {/* <h3>{DataTitle[0].desc}</h3> */}
             {Data.map((data, index) => (
               <>
               <div

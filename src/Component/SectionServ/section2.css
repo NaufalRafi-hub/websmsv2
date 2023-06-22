@@ -13,6 +13,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
+  margin-bottom: 30px;
 }
 .container-sec2 > h3 {
   /* display: flex;
@@ -28,7 +29,7 @@
   margin-top: 60px;
   text-align: center;
   position: relative;
-  width: auto;
+  /* width: auto; */
 }
 .cont-sec2 > img {
   border-radius: 10px;
