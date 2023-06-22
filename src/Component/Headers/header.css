@@ -1,12 +1,14 @@
 .wrap-head {
   /* background-color: aquamarine; */
-  /* background-image: url(../../Images/header-bg.png); */
-  /* background-size: cover; */
+  /* background-image: url(../../Images/display-produk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
   padding: 100px 50px 100px 50px;
   margin-top: 70px;
   height: 550px;
   background-position: 0% 20%;
-  background: linear-gradient(49deg, rgba(36, 39, 92, 0.87) 12.75%, rgba(0, 0, 0, 0.00) 100%), url(../../Images/header-bg.png), lightgray 50% / cover no-repeat;
+  background: linear-gradient(49deg, rgba(36, 39, 92, 0.87) 12.75%, rgba(0, 0, 0, 0.00) 100%), url(../../Images/display-produk.png) no-repeat center / cover;
   position: relative;
   display: flex;
   align-items: center;
