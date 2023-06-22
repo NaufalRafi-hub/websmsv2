@@ -31,7 +31,7 @@ import promUnitc from "../../Images/promotional-units-c.webp";
 
 export default [
   {
-    name: "Digital",
+    name: "Out of Home",
     cover: camel1,
     ava: oohSGM,
     texts: "Display produk yang akan meningkatkan minat beli konsumen dalam pembelian barang yang terpajang.",
@@ -54,7 +54,7 @@ export default [
     ],
   },
   {
-    name: "Sign",
+    name: "Installation",
     cover: royal3,
     ava: promUnit,
     texts: "Sign sebagai pemerjelas logo dan informasi dari brand sesuai dengan kebutuhan perusahaan.",
@@ -121,7 +121,7 @@ export default [
     ],
   },
   {
-    name: "Promotion Product",
+    name: "POSM & Sign",
     cover: bintang1,
     ava: printMat,
     texts: "Offset, Screen Print, and Digital Print",
@@ -135,7 +135,7 @@ export default [
     products: [],
   },
   {
-    name: "Installation",
+    name: "Digital",
     cover: printMatc,
     ava: printMat,
     texts: "Berbagai bentuk instalasi sebagai unique attraction terhadap produk dan brand.",
