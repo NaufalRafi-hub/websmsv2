@@ -64,11 +64,18 @@
   height: 100px;
 }
 @media only screen and (max-width: 767px) {
-  
-  .container-head {
-    flex-direction: column;
-  }
   .container-head > h1 {
     font-size: 2rem;
+  }
+  .container-head > h3 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .container-head {
+    width: 250px;
+  }
+  .container-head > h1 {
+    font-size: 1.7rem;
   }
 }

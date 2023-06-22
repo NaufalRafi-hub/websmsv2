@@ -19,3 +19,17 @@
 .mt-vm {
     margin-top: 47px;
 }
+@media only screen and (max-width: 768px) {
+    .mt-vm {
+        margin-top: -20px;
+    }
+    .vm-wrap {
+        gap: 20px
+    }
+  }
+  @media only screen and (max-width: 581px) {
+    .vm-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }
