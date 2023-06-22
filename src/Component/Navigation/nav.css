@@ -81,18 +81,17 @@
     height: 20px;
   }
 }
+@media only screen and (max-width: 1400px) {
+  .nav-btn {
+    margin-left: 40%;
+  }
+}
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .nav-btn-id {
     gap: 5px;
-    /* margin-left: 10%; */
   }
-}
-@media only screen and (max-width: 991px) {
-  /* For desktop: */
   .nav-btn {
-    gap: 10px;
-    margin-left: 0;
-    margin-bottom: 20px;
-    margin-top: 2.5%;
+    margin-left: 23%;
   }
 }
+
