@@ -42,9 +42,6 @@
   object-fit: cover;
   z-index: -1;
 }
-.ar-down {
-  display: none;
-}
 .cont-head {
   text-align: center;
   display: flex;
@@ -67,13 +64,11 @@
   height: 100px;
 }
 @media only screen and (max-width: 767px) {
-  .ar-down {
-    display: block;
-  }
-  .ar-left {
-    display: none;
-  }
+  
   .container-head {
     flex-direction: column;
+  }
+  .container-head > h1 {
+    font-size: 2rem;
   }
 }
