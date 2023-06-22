@@ -4,6 +4,8 @@ import "../Section1/section1.css";
 import Button from "react-bootstrap/Button";
 import Data from "./Data.js";
 import shineLogo from "../../Images/shineLogo.png"
+import lasFoto from "../../Images/las.jpg"
+
 
 const Section1 = (props) => {
   const { lang = "en" } = props;
@@ -16,6 +18,7 @@ const Section1 = (props) => {
             <div className="col-md cont-sec1-left ">
               <h2 className="yellow fw-bold">ABOUT US</h2>
               <h1>{Data[0].text1}</h1>
+              <img className="las" src={lasFoto}></img>
             </div>
             <div className="col-md cont-sec1-right">
               <h3>{Data[0].head}</h3>
