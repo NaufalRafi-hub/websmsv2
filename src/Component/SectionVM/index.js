@@ -4,7 +4,7 @@ import './Vm.css'
 
 const SectionVM = () => {
   return (
-    <div className="bg-navy py-140">
+    <div className="bg-navy py-80">
         <Container>
             <div className='row vm-wrap'>
                 <div className='col-md vm-cont'>

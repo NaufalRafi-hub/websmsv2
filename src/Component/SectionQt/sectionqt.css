@@ -7,20 +7,22 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-right: 40px;
 }
 .qt-cont {
-    border-right: 2px solid #FFCC33;
+    border-right: 2px solid #E7B529;
     padding-right: 50px;
 }
 .qt-cont > h1 {
-    font-size: xx-large;
+    font-size: 3rem;
 }
 .qt-cont > h2 {
     font-size: x-large;
     color: white;
+    width: 200px;
 }
 .qt-cont3 > h1 {
-    font-size: xx-large;
+    font-size: 3rem;
 }
 .qt-cont3 > h2 {
     font-size: x-large;

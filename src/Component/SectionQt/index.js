@@ -8,7 +8,7 @@ const SectionQt = (props) => {
   const { lang = "en" } = props;
 
   return (
-      <div className="bg-navy py-140 text-center">
+      <div className="bg-navy py-80 text-center">
         <Container>
           <div className="qt-wrap">
             <div className="qt-cont">
@@ -21,7 +21,7 @@ const SectionQt = (props) => {
             </div>  
             <div className="qt-cont3">
                 <h1 className="yellow">300+</h1>
-                <h2>SATISFIED CLIENT</h2>
+                <h2>SATISFIED <br/>CLIENT</h2>
             </div>            
           </div>
             
