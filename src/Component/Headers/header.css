@@ -8,7 +8,7 @@
   margin-top: 70px;
   height: 550px;
   background-position: 0% 20%;
-  background: linear-gradient(49deg, rgba(36, 39, 92, 0.87) 12.75%, rgba(0, 0, 0, 0.00) 100%), url(../../Images/display-produk.png) no-repeat center / cover;
+  background: linear-gradient(49deg, rgba(36, 39, 92, 0.98) 20.75%, rgba(0, 0, 0, 0.00) 100%), url(../../Images/display-produk.png) no-repeat center / cover;
   position: relative;
   display: flex;
   align-items: center;
