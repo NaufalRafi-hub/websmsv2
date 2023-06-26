@@ -8,18 +8,25 @@
     justify-content: center;
     gap: 50px;
     padding-right: 40px;
+    text-align: center;
 }
 .qt-cont {
     border-right: 2px solid #E7B529;
     padding-right: 50px;
+    text-align: center;
+
 }
 .qt-cont > h1 {
     font-size: 3rem;
+    text-align: center;
+
 }
 .qt-cont > h2 {
     font-size: x-large;
     color: white;
     width: 200px;
+    text-align: center;
+
 }
 .qt-cont3 > h1 {
     font-size: 3rem;
@@ -27,11 +34,14 @@
 .qt-cont3 > h2 {
     font-size: x-large;
     color: white;
+    text-align: center;
+
 }
 @media only screen and (max-width: 768px) {
     .qt-wrap {
         /* display: flex; */
         flex-direction: column;
+        align-items: center;
         /* justify-content: center; */
         /* gap: 50px; */
     }

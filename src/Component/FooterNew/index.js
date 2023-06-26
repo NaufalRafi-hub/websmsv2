@@ -19,7 +19,7 @@ const FooterNew = () => {
                     <h1>Get in Touch with Us!</h1>
                     <hr className='footer-hr'></hr>
                     <div className='row footer-child'>
-                        <div className='col-md child-1'>
+                        <div className='col-md-3 child-1'>
                             <h3><b>CV. SINAR MEDIA SAKTI</b></h3>
                         </div>
                         <div className='col-md child-2'>
@@ -38,7 +38,7 @@ const FooterNew = () => {
                             </h3>
                             <h3>
                                 <span className='wr-span'>
-                                    <img className="footer-email" src={email}></img> bagus.sms@gmail.com
+                                    <img className="footer-email" src={email}></img> bagus.sms@gmail.com <br></br> sinarmediasakti.adv@gmail.com
                                 </span>
                             </h3>
                         </div>
