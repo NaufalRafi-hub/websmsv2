@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import './slider.css'
 
 //buat passing data dari imageSlider ditaroh di dalem bracket
 const SliderContent = ({ activeIndex, imageSlider, parentIdx }) => {
