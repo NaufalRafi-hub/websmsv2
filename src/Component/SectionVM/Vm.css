@@ -1,7 +1,7 @@
 .vm-wrap {
     /* display: flex;
     justify-content: center; */
-    gap: 40px
+    gap: 20px
 }
 .vm-cont > h1 {
     color: white;

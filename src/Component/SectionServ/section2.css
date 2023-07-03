@@ -59,8 +59,8 @@
   height: 60px;
   text-align: left;
   border-radius: 0 0 10px 10px;
-  background: rgba(31, 13, 114, 0.5);
-  backdrop-filter: blur(10px);
+  background: rgba(47, 41, 106, 0.7);
+  /* backdrop-filter: blur(10px); */
   transition: transform 0.5s, border-radius 1s;
   transform-origin: bottom;
 }
@@ -87,7 +87,7 @@
 }
 .wrap-abs > h2,
 .wrap-text > h2 {
-  color: #FFCC33;
+  color: #E7B529;
   font-weight: 700;
   font-size: 16px;
   /* margin-left: 10px; */

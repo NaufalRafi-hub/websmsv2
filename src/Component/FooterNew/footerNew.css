@@ -1,6 +1,6 @@
 .footer-outer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     /* margin-top: 100px; */
 }
 .footer-wr {
@@ -24,8 +24,9 @@
 
 }
 .footer-cont > h1 {
-    font-size: medium;
+    font-size: xx-large;
     font-weight: bold;
+
 }
 .footer-hr {
     border: 1px solid #FFCC33;
@@ -42,8 +43,16 @@
 .wr-span > img{
     height: 20px;
 }
-.child-1 > h3, .child-2 > h3, .child-3 > h3 {
+/* .child-1 {
+    width: 200px !important;
+} */
+.child-1 > h3 {
+    font-size: medium;
+    /* font-weight: bold; */
+}
+.child-2 > h3, .child-3 > h3 {
     font-size: small;
+    font-weight: 300;
 }
 @media only screen and (max-width: 768px) {
     .footer-wr {

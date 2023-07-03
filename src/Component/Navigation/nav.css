@@ -1,16 +1,17 @@
 .nav-logo {
-  height: 29px;
+  height: 60px;
 }
 /* .Navbar {
     padding: 80px !important;
 } */
 .nav-btn {
   gap: 40px;
-  margin-left: 47%;
+  margin-left: 33%;
   justify-content: end;
 }
 .nav-link {
   font-size: 15px;
+  font-weight: bold;
 }
 .nav-link-indo {
   font-size: 13px !important;
@@ -81,11 +82,11 @@
     height: 20px;
   }
 }
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   .nav-btn {
-    margin-left: 40%;
+    margin-left: 26%;
   }
-}
+} */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .nav-btn-id {
     gap: 5px;

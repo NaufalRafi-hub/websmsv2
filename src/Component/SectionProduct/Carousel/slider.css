@@ -37,6 +37,7 @@
 .slide-image {
   width: 533px;
   height: 400px;
+  object-fit: cover;
   align-self: center;
   object-fit: cover;
 }
